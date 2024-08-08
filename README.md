@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/db3291c0-6894-43f2-82e2-8ce45101c008)
 
+Source:https://www.geekwire.com/2023/ev-charging-startup-electric-era-lands-11-5m-to-deploy-ai-and-battery-supported-stations/
+
 # Summary
 This project aims to understand the rising demand of EV Chargers in Ireland as EV Registrations for in county are rising rapidly (most notably in Dublin). By Training a machine learning statistical model, a 10 year data for EV Registrations for each county is obtained, trained and tested. Then, with the help of Auto Arima and SARIMAX, future EV registrations are predicted for the next 2 years for each county. As per the European Union suggestion, the ratio of EV to EV Charger is ideally 10:1. With the help of this model, we can pre plan and proactively manage the infrastructure accordingly for each county.
 
