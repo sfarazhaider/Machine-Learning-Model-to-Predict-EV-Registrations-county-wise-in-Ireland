@@ -18,14 +18,16 @@ There are 3 data sets used for this project
 
 ![Trend of EV Registrations overtime by County](https://github.com/user-attachments/assets/aba76b55-47cc-4ad5-8be4-9d7ccd2aa1fc)
 
+![Trend of Total EV Registrations overtime by County](https://github.com/user-attachments/assets/c43701cf-2005-4a5e-998c-1e8f8d1d6251)
+
 ![Trend of Total EV Registrations overtime in Ireland](https://github.com/user-attachments/assets/0595b62e-15c0-488e-8f1c-b8ebf52870b0)
 
+![EV Registrations in Dublin](https://github.com/user-attachments/assets/f884f26e-05a0-43d1-8e56-09eb2581b69b)
 
+![Total EV Registrations in Dublin since 2014](https://github.com/user-attachments/assets/f86eabae-bc65-40d5-bd38-c3e8975bb767)
 
+![Forecasted Total EV Registrations](https://github.com/user-attachments/assets/613b26d5-863e-4143-8656-5fe79b206a7c)
 
-
-
-![EV Registrations in Dublin](https://github.com/user-attachments/assets/1921a3bb-48aa-4cb9-8b2f-f658db455dd7)
 
 
 
