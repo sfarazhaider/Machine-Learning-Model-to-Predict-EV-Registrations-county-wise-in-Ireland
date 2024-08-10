@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/db3291c0-6894-43f2-82e2-8ce45101c008)
 
-Picture Source:https://www.geekwire.com/2023/ev-charging-startup-electric-era-lands-11-5m-to-deploy-ai-and-battery-supported-stations/
+image source:https://www.geekwire.com/2023/ev-charging-startup-electric-era-lands-11-5m-to-deploy-ai-and-battery-supported-stations/
 
 # Summary
 This project aims to understand the rising demand of EV Chargers in Ireland as EV Registrations for in county are rising rapidly (most notably in Dublin). By Training a machine learning statistical model, a 10 year data for EV Registrations for each county is obtained, trained and tested. Then, with the help of Auto Arima and SARIMAX, future EV registrations are predicted for the next 2 years for each county. As per the European Union suggestion, the ratio of EV to EV Charger is ideally 10:1. With the help of this model, we can pre plan and proactively manage the infrastructure accordingly for each county.
@@ -36,4 +36,4 @@ There are 3 data sets used for this project
 
 
 # Limitations Recommendations
-- Since API data sets were not readily available, parsing for datasets had to be done by scraping through MS Power Automate, in the future, an API based data set should be used for obtaining data sets of EV registrations with more granuality. For example, EV registrations weekly transaction data,  make and model of each of them, tpye of EV, new or used and also charging activity. This would tranform the model to depp learning for more accurate forecasts.
+- Since API data sets were not readily available, parsing for datasets had to be done by scraping through MS Power Automate, in the future, an API based data set should be used for obtaining data sets of EV registrations with more granuality. For example, weekly EV registrations transaction data,  make and model of each of them, tpye of EV, new or used Vehilce, and also charging activity. This would tranform the model to deep learning for more accurate forecasts.
