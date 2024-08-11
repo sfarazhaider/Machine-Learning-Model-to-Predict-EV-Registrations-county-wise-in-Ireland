@@ -36,4 +36,4 @@ There are 3 data sets used for this project
 
 
 # Limitations Recommendations
-- Since API data sets were not readily available, parsing for datasets had to be done by scraping through MS Power Automate, in the future, an API based data set should be used for obtaining data sets of EV registrations with more granuality. For example, weekly EV registrations transaction data,  make and model of each of them, tpye of EV, new or used Vehilce, and also charging activity. This would tranform the model to deep learning for more accurate forecasts.
+- Since API data sets were not readily available, parsing for datasets had to be done by scraping through MS Power Automate, in the future, an API based data set should be used for obtaining data sets of EV registrations with more granuality. For example, weekly EV registrations transaction data,  make and model, type of EV, new or used, and also charging activity. This would transform the model to deep learning for more accurate forecasts.
