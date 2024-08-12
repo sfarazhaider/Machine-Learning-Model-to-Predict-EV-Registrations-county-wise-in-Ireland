@@ -5,7 +5,7 @@
 image source:https://www.geekwire.com/2023/ev-charging-startup-electric-era-lands-11-5m-to-deploy-ai-and-battery-supported-stations/
 
 # Summary
-This project aims to understand the rising demand of EV Chargers in Ireland as EV Registrations for in county are rising rapidly (most notably in Dublin). By Training a machine learning statistical model, a 10 year data for EV Registrations for each county is obtained, trained and tested. Then, with the help of Auto Arima and SARIMAX, future EV registrations are predicted for the next 2 years for each county. As per the European Union suggestion, the ratio of EV to EV Charger is ideally 10:1. With the help of this model, we can pre plan and proactively manage the infrastructure accordingly for each county.
+This project aims to understand the rising demand of EV Chargers in Ireland as EV Registrations for each county are rising rapidly (most notably in Dublin). The data set for EV registrations is obtained from SIMI (Society of Irish Motor Indusry) and it also includes plug-in hybrids which are also relevant in the EV-charging landscape. By training a machine learning statistical model on a month-wise 10 year dataset for EV Registrations for each county, Train-Test split is performed. Then, with the help of Auto Arima and SARIMAX, I find the best model fit while catering to the seasonality of my dataset. The dependant variable y is total running sum of EV regisrations since 2014. Finally, for 104 number of observations, with the right SARIMAX model fit of parameters (1,1,1) we get log likelihood of -951.867. Based on this fit, future EV registrations are predicted for the next 2 years for each county. With the help of this model, we can pre plan and proactively manage the infrastructure accordingly for each county.
 
 # Data
 There are 3 data sets used for this project
@@ -36,4 +36,4 @@ There are 3 data sets used for this project
 
 
 # Limitations Recommendations
-- Since API data sets were not readily available, parsing for datasets had to be done by scraping through MS Power Automate, in the future, an API based data set should be used for obtaining data sets of EV registrations with more granuality. For example, weekly EV registrations transaction data,  make and model, type of EV, new or used, and also charging activity. This would transform the model to deep learning for more accurate forecasts.
+- Since API data sets were not readily available, parsing for datasets had to be done by scraping through MS Power Automate, in the future, an API based data set should be used for obtaining data sets of EV registrations with more granuality. For example, weekly EV registrations transaction data to increase number of observations,  make and model, type of EV, new or used, and also charging activity. This would transform the model to deep learning for more accurate forecasts.
